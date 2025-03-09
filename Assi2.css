@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+ .quicksand{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+  /* styles */
+*{
+    margin: 0px; 
+    padding: 0px;
+ }
+
+
+ /* navbar */
+ .nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+
+ .title{
+    font-size: 1.789rem;
+ }
+
+ .unorderd-list{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: .8rem;
+ }
+
+ .list-item{
+    font-weight: 600;
+ }
+
+ .btn{
+    background-color: black;
+    width: 125px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: .8rem;
+    color: white;
+    font-weight: lighter;
+ }
+
+ #burger{
+    display: none;
+ }
+
+
+  /* lower header */
+  .details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0px;
+  }
+
+  .empowering{
+    font-size: 3.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .courage{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.2rem;
+  }
+
+
+  /* main sec-1 */
+  .standard{
+    font-size: 2.5rem;
+  }
+
+  .kinder{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+
+  .mini{
+    font-size: .65rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+  }
+
+  .more{
+    border: none;
+    background: none;
+    font-size: .8rem;
+    font-weight: bold;
+  }
+
+  .study-box{
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+    width: 233px;
+    height: 290px;
+    box-shadow: 0px 0px 3px 0px  rgba(97, 97, 97, 0.237);
+  }
+
+  .boxes{
+    display: flex;
+    gap: 1.5rem;
+    padding-left: calc(50% - 385px);
+    padding-top: 3rem;
+  }
+
+  .main-top{
+    background-image: url(assets/bg.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 32rem;
+    text-align: center;
+    padding-top: 5rem;
+  }
+
+
+ @media screen and (max-width:320px) {
+    /* nav-bar */
+    #burger{
+        display: flex;
+        align-items: center;
+        padding-right: 25px;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .panda{
+        width: 45px;
+        height: 45px;
+        padding-left: 25px;
+    }
+
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid rgba(255, 166, 0, 0.495);
+        width: 99.999%;
+    }
+
+    header{
+        margin-bottom: 0px;
+    }
+
+
+    /* lower header */
+    .details{
+        flex-direction: column-reverse;
+        justify-content: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .empowering{
+        font-size: 1.7rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-top: .5rem;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .courage{
+        font-size: .7rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .boy{
+        margin-left: 2rem;
+    }
+
+    .bttn{
+        margin-left: calc(50% - 62.5px);
+        font-size: smaller;
+        margin-bottom: 3rem;
+    }
+
+    /* main-sec1 */
+    .standard{
+        font-size: x-large;
+        font-weight: bolder;
+    }
+
+    .boxes{
+        flex-direction: column;
+        justify-items: center;
+        padding-left: 35px;
+        margin-bottom: 2rem;
+    }
+
+    .main-top{
+        padding-top: 0px;
+        height: auto;
+    }
+ }
